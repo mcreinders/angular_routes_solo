@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    background-color: #66b2ff;
+    text-align: center;
+}
+
+img{
+    float: left;
+    height: 100px;
+    margin: 10px;
+}
+
+.page-header {
+    background-color: #66b2ff;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="routeApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Routes Solo</title>
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+    <base href="/">
+</head>
+<body>
+    <div class="page-header">
+        <h1>Learn more about the candidates</br><small>select one of the buttons below</small></h1>
+    </div>
+    <div class="col-md-3"></div>
+    <a href="/bernie" class="btn btn-default active">Bernie Sanders</a>
+    <a href="/donald" class="btn btn-default">Donald Trump</a>
+    <a href="/hilary" class="btn btn-default">Hilary Clinton</a>
+    <a href="/marco" class="btn btn-default">Marco Rubio</a>
+    <a href="/martin" class="btn btn-default">Martin OMalley</a>
+    <a href="/ted" class="btn btn-default">Ted Cruz</a>
+
+    <div ng-view>
+
+    </div>
+    <div class="footer">Please use the information provided at your own risk</div>
+</body>
+</html>
